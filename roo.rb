@@ -31,7 +31,9 @@ class MegaGreeter
 		end
 	end
 end
-
+	
+puts "File name is #{__FILE__}"
+puts "This var $0 is #{$0}"
 
 if __FILE__ == $0
 	mg = MegaGreeter.new
